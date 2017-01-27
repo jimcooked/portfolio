@@ -1,31 +1,69 @@
 <!DOCTYPE html>
 <html>
  <head>
-   <link href="css/styles.css" rel="stylesheet" type="text.css">
+   <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
+   <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
    <title>James Cooke Portfolio</title>
  </head>
  <body>
-   <h1>James Cooke</h1>
-   <h2>Web Design Portfolio</h2>
-   <p class="intro">I just started programming, thanks for checking out my work!</p>
-   <h3 class="blue">Current Projects</h3>
-   <ul>
-     <li><a href="https://github.com/jimcooked/hello-world">Hello World</a></li>
-     <li><a href="https://github.com/jimcooked/goodbye-world">Goodbye World</a></li>
-     <li><a href="https://github.com/jimcooked/cookie-recipe">Cookie Recipe</a></li>
-     <li><a href="https://github.com/jimcooked/private-island-resort">Private Island Resort</a></li>
-     <li><a href="https://github.com/jimcooked/Cupcake-Shop">Cupcake Shop</a></li>
-     <li><a href="https://github.com/jimcooked/vacation-site">Vacation Site</a></li>
-   </ul>
-   <img src="img/IMG_1123.JPG" alt="It's a Me!">
-   <h3 class="blue">About Me</h3>
-   <p>I've been working support for a while now and want to expand my skills by learning how to program. So far, I've learned:</p>
-   <ol>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Bootstrap</li>
-    <li><em>and more...</em></li>
-   </ol>
+   <div class="container">
+     <div class="jumbotron">
+       <h1>James Cooke</h1>
+       <h2>Web Design Portfolio</h2>
+       <p class="intro">I just started programming, thanks for checking out my work!</p>
+     </div>
+     <div class="row">
+       <div class="col-md-2">
+         <div class="panel panel-info">
+           <div class="panel-heading">
+             <h3 class="blue panel-title">Current Projects</h3>
+           </div>
+           <div class="panel-body">
+             <ul>
+               <li><a href="https://github.com/jimcooked/hello-world">Hello World</a></li>
+               <li><a href="https://github.com/jimcooked/goodbye-world">Goodbye World</a></li>
+               <li><a href="https://github.com/jimcooked/cookie-recipe">Cookie Recipe</a></li>
+               <li><a href="https://github.com/jimcooked/private-island-resort">Private Island Resort</a></li>
+               <li><a href="https://github.com/jimcooked/Cupcake-Shop">Cupcake Shop</a></li>
+               <li><a href="https://github.com/jimcooked/vacation-site">Vacation Site</a></li>
+             </ul>
+           </div>
+         </div>
+       </div>
+       <div class="col-md-10">
+         <div class="panel panel-info">
+           <div class="panel-heading">
+             <h3 class="blue panel-title">About Me</h3>
+           </div>
+           <div class="panel-body">
+             <img src="img/IMG_1123.JPG" alt="It's a Me!">
+             <p>I've been working support for a while now and want to expand my skills by <span class="pro">learning how to program</span>. So far, I've learned:</p>
+             <ol>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Bootstrap</li>
+              <li><em>and more...</em></li>
+             </ol>
+           </div>
+         </div>
+      </div>
+     </div>
 
+
+
+
+
+     <div class="mybox">
+
+       <h3 class="blue">About Me</h3>
+       <p>I've been working support for a while now and want to expand my skills by <span class="pro">learning how to program</span>. So far, I've learned:</p>
+       <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Bootstrap</li>
+        <li><em>and more...</em></li>
+       </ol>
+     </div>
+   </div>
  </body>
 </html>

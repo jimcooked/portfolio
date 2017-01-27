@@ -1,3 +1,18 @@
+
+.mybox {
+  margin: 2px;
+
+}
+
+img {
+  float: right;
+  height: 200px;
+  width: 200px;
+}
+
+.pro {
+  font-family: sans-serif;
+}
 h3.blue {
   color: blue;
   font-weight: bold;
