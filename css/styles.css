@@ -1,0 +1,9 @@
+h3.blue {
+  color: blue;
+  font-weight: bold;
+}
+
+p.intro {
+  width: 50%;
+  font-style: italic;
+}
