@@ -1,7 +1,7 @@
 
 .mybox {
-  margin: 2px;
-
+  padding: 24px;
+  text-align: center;
 }
 
 img {
@@ -11,7 +11,7 @@ img {
 }
 
 .pro {
-  font-family: sans-serif;
+  font-family: monospace;
 }
 h3.blue {
   color: blue;
